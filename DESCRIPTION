@@ -1,0 +1,13 @@
+Package: retro
+Type: Package
+Title: Terminal Tools
+Version: 0.1
+Author: Laszlo Szakacs <cocinerox@gmail.com>
+Maintainer: Laszlo Szakacs <cocinerox@gmail.com>
+Description: Tools for having fun on the R terminal, including snake or ASCII
+    animation. R Console is not supported. Colorful characters can be used
+    under *nix. Windows terminal flashes, unfortunately. Initial release.
+Depends:
+    R (>= 3.0.0)
+License: MIT + file LICENSE
+LazyData: true
