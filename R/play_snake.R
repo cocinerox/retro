@@ -38,8 +38,8 @@ play_snake <- function(file = retro_example("snake_default"), left = chr2asc('a'
     }
     draw(d, text = paste0('Length: ', L, '\n'))
     k <- get_ch(max(1, sp + 1 - L))
-    if      (k == left ) v <- c(v[2],v[1]) * (1 - 2 * abs(v[2]))
-    else if (k == right) v <- c(v[2],v[1]) * (1 - 2 * abs(v[1]))
+    if      (k %in% left ) v <- c(v[2],v[1]) * (1 - 2 * abs(v[2]))
+    else if (k %in% right) v <- c(v[2],v[1]) * (1 - 2 * abs(v[1]))
     r1 <- d[1, ]
     r1$x <- r1$x + v[1]
     r1$y <- r1$y + v[2]
