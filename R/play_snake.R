@@ -2,8 +2,8 @@
 #'
 #' Play snake on the terminal. Default keys: left (relative) is "a", right (relative) is "d".
 #' @param file input file that contains the level to play (without border). Defaults to \code{retro_example("snake_default")}.
-#' @param left ASCII code of the key that turns the snake left. Defaults to \code{chr2asc("a")}.
-#' @param right ASCII code of the key that turns the snake right. Defaults to \code{chr2asc("d")}.
+#' @param left ASCII code of the key that turns the snake left. Vector of enabled ASCII codes can be used as well. Defaults to \code{chr2asc("a")}.
+#' @param right ASCII code of the key that turns the snake right. Vector of enabled ASCII codes can be used as well. Defaults to \code{chr2asc("d")}.
 #' @param sp initial speed of the snake, positive integer. Smaller is faster. Defaults to \code{20}.
 #' @param h height of the level (without border). Defaults to \code{25}.
 #' @param w width of the level (without border). Defaults to \code{50}.
