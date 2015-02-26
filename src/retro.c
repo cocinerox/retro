@@ -1,7 +1,7 @@
 // Non-blocking keyboard input with 10 ms delay (get_ch)
 // Reference: http://stackoverflow.com/a/6665815 and http://stackoverflow.com/a/13129698
 
-#if defined(__unix__) || defined(__APPLE__)
+#if !defined(_WIN32)
 
   #include <stdio.h>
   #include <termios.h>
