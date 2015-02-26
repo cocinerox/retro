@@ -11,9 +11,9 @@ play_snake(file = retro_example("snake_default"), left = chr2asc("a"),
 \arguments{
 \item{file}{input file that contains the level to play (without border). Defaults to \code{retro_example("snake_default")}.}
 
-\item{left}{ASCII code of the key that turns the snake left. Defaults to \code{chr2asc("a")}.}
+\item{left}{ASCII code of the key that turns the snake left. Vector of enabled ASCII codes can be used as well. Defaults to \code{chr2asc("a")}.}
 
-\item{right}{ASCII code of the key that turns the snake right. Defaults to \code{chr2asc("d")}.}
+\item{right}{ASCII code of the key that turns the snake right. Vector of enabled ASCII codes can be used as well. Defaults to \code{chr2asc("d")}.}
 
 \item{sp}{initial speed of the snake, positive integer. Smaller is faster. Defaults to \code{20}.}
 
