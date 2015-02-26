@@ -1,5 +1,7 @@
 # retro
 
+[![Build Status](https://travis-ci.org/cocinerox/retro.png?branch=master)](https://travis-ci.org/cocinerox/retro)
+
 Tools for having fun on the R terminal, including snake or ASCII animation. R Console is not supported. Colorful characters can be used under *nix. Windows terminal flashes, unfortunately. Initial release.
 
 ## Installation
